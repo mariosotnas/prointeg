@@ -52,7 +52,7 @@
 
 <?php
 		#header("Location:index.php?login=0");
-		header('Refresh: 0.7; URL=index.php?login=0');
+		header('Refresh: 0.6; URL=index.php?login=0');
 
 	}else{
 		logaUsuario($usuario["login"]);
