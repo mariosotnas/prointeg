@@ -4,7 +4,7 @@ td.info {text-align: right;}
 
 td.table {text-transform: uppercase;}
 
-.form-group input {text-transform: uppercase;}
+/* .form-group input {text-transform: uppercase;} */
 
 .table-bordered td {text-transform: uppercase; font-size: 10px;}
 
