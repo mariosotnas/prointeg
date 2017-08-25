@@ -29,7 +29,7 @@
         <div class="col-sm-8">
           <div class="alert alert-info alert-dismissable fade in">
             <a href="#" class="close" data-dismiss="alert" arial-label="close">&times;</a>
-            <strong>•</strong> Conecte-se para poder utilizar o sistema!
+            <i class="fa fa-info-circle fa-1x" aria-hidden="true"></i>&nbsp; Conecte-se para poder utilizar o sistema!
           </div>
         </div>
       </div>

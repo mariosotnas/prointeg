@@ -17,7 +17,7 @@ function insereCliente($con, $cliente, $endereco){
 	$query2 = "INSERT INTO endereco(id_cliente, logradouro, complemento, nmr_residencia, cep) VALUES ('{$cliente->id}', '{$endereco->logradouro}', '{$endereco->complemento}', '{$endereco->numero}', '{$endereco->cep}')";
 
 	$resultado2 = mysqli_query($con, $query2);
-	return $resultado2;			
+	return $resultado2;
 }
 #FIM DA FUNCAO insereCliente();
 #----------------------------------------------------------------------------------------------------#

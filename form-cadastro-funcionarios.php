@@ -146,10 +146,10 @@
 
 					<div class="col-sm-6">
 						<button type="submit" class="btn btn-primary btn-lg">
-							Cadastrar
+							Salvar
 						</button>
 
-						<button type="reset" class="btn btn-warning btn-lg">
+						<button type="reset" class="btn btn-default btn-lg">
 							Limpar
 						</button>
 					</div>

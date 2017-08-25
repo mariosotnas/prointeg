@@ -58,7 +58,7 @@
       </div>
 
       <div class="collapse navbar-collapse" id="bar1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-left">
 
           <li class="active"><a href="index.php"><i class="fa fa-home fa-1x" aria-hidden="true"></i>&nbsp;Home</a></li>
 
@@ -162,24 +162,29 @@
               </li>
             </ul>
           </li>
+         
+        </ul><!--Finalizando o menu-->
 
-          <li class="dropdown">
-            <a class="dropdown-toggle" id="user" data-toggle="dropdown" href="#">
-              <i class="fa fa-user-circle-o fa-1x" aria-hidden="true"></i>&nbsp; <?=usuarioLogado();?>
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="logout.php">
-                  <span class="glyphicon glyphicon-log-out"></span>Sair
-                </a>
-              </li>
-            </ul>
-          </li>
+        <div class="collapse navbar-collapse" id="bar1">
+          <ul class="nav navbar-nav navbar-right">
 
-        </ul>
+            <li class="dropdown">
+              <a class="dropdown-toggle" id="user" data-toggle="dropdown" href="#">
+                <i class="fa fa-user-circle-o fa-1x" aria-hidden="true"></i>&nbsp; <?=usuarioLogado();?>
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="logout.php">
+                    <span class="glyphicon glyphicon-log-out"></span>Sair
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-      </div>
+          </ul>
+        </div>
+
     </nav>
 <!--Fechando o if:-->
 <?php  
