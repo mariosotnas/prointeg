@@ -162,8 +162,14 @@
 						</div>
 					</div>
 
+					<div class="col-sm-8">
+						<div class="form-group">
+							<input type="hidden" class="form-control" name="id" value="<?=$cliente->id ?> ">
+						</div>
+					</div>
+
 					<div class="col-sm-6">
-						<button type="submit" class="btn btn-info btn-lg" formaction="atualiza-clientes.php">
+						<button type="submit" class="btn btn-info btn-lg" formaction="atualiza-clientes.php?id=$cliente->id">
 							<!--i class="fa fa-refresh fa-1x" aria-hidden="true"></i-->Atualizar</a></li>
 						</button>
 

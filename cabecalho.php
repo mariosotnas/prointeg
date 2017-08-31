@@ -16,10 +16,17 @@
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Font Awesome-->
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- JavaScript de Validação -->
+  <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+  <script type="text/javascript" src="js/jquery.maskMoney.js" ></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,8 +35,6 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <!-- Font Awesome-->
-  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body id="mg-topo">
@@ -80,13 +85,13 @@
                 </a>
               </li>
 
-              <!--li role="separator" class="divider"></li>
+              <li role="separator" class="divider"></li>
 
               <li>
                 <a class="dropdown-item" href="lista-clientes.php">
                   <i class="fa fa-list fa-1x" aria-hidden="true"></i>&nbsp;Listar Todos
                 </a>
-              </li-->
+              </li>
             </ul>
           </li>
 

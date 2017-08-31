@@ -1,9 +1,5 @@
 <?php require_once "cabecalho.php";?>
 
-<!-- JavaScript de Validação -->
-<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
-<script type="text/javascript" src="js/jquery.maskMoney.js" ></script>
-
 <!--Faça um if aqui verificando se o usuário está logado (chame a função usuarioEstaLogado() :-->
 <?php 
 	if (usuarioEstaLogado()){  

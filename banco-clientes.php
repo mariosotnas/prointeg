@@ -186,6 +186,18 @@ function listaClientes($con){
 
 <?php
 
+function atualizaCliente($con, $cliente, $endereco){ 
+
+	#ATUALIZANDO A TABELA DE CLIENTES
+	$query = "UPDATE cliente SET nm_cliente='{$cliente->nome}', email='{$cliente->email}', rg='{$cliente->rg}', uf='{$cliente->uf}', cpf='{$cliente->cpf}', telefone='{$cliente->telefone}', celular='{$cliente->celular}' WHERE id_cliente='{$cliente->id}'";
+
+	#ATUALIZANDO A TABELA DE ENDERECOS
+	$query2 = "UPDATE endereco SET logradouro='{$endereco->logradouro}', complemento='{$endereco->complemento}', nmr_residencia='{$endereco->numero}', cep='{$endereco->cep}' WHERE id_cliente='{$cliente->id}'";
+
+	$resultado2 = mysqli_query($con, $query2);
+	return $resultado2;
+}
+
 /* IMPLEMENTACAO FUTURA
 
 function exibirCliente($con, $cliente, $endereco){

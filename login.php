@@ -23,7 +23,7 @@
 				<div class="col-sm-8">
 					<div class="alert alert-danger alert-dismissable fade in">
 						<a href="#" class="close" data-dismiss="alert" arial-label="close">&times;</a>
-						<strong>•</strong> Usuário ou senha incorretos!
+						<i class="fa fa-info-circle fa-1x" aria-hidden="true"></i>&nbsp; Credenciais inválidas!
 					</div>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 
 <?php
 		#header("Location:index.php?login=0");
-		header('Refresh: 0.6; URL=index.php?login=0');
+		header('Refresh: 1.5; URL=index.php?login=0');
 
 	}else{
 		logaUsuario($usuario["login"]);
