@@ -1,19 +1,17 @@
-<?php require_once ("cabecalho.php");?>
+<?php require_once("cabecalho.php");?>
 
 <!--Faça um if aqui verificando se o usuário está logado (chame a função usuarioEstaLogado() :-->
 <?php 
 	if (usuarioEstaLogado()){  
 ?> 
 		<div class="container">
-			<div class="page-header">
-				<center>
-					<h1>Novo Cliente</h1>
-				</center>
-			</div>
+            <div class="page-header">
+                <h1>Novo Cliente</h1>
+            </div>
 
 			<div class="row">
 				<div class="col-sm-8">
-					<form action="adiciona-clientes.php" method="POST">
+					<form action="../../../view/adiciona-clientes.php" method="POST">
 						<div class="form-group">
 							<label for="nome">Nome</label>
 							<input type="text" class="form-control" id="nome" name="nome" autofocus required>

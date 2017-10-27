@@ -4,7 +4,7 @@
 
 <?php
 
-function insereCliente($con, $cliente, $endereco){ 
+function gravarCliente($con, $cliente, $endereco){
 
 	#POPULANDO A TABELA DE CLIENTES
 	$query = "INSERT INTO cliente(nm_cliente, email, rg, uf, cpf, telefone, celular) VALUES ('{$cliente->nome}', '{$cliente->email}', '{$cliente->rg}', '{$cliente->uf}', '{$cliente->cpf}', '{$cliente->telefone}', '{$cliente->celular}')";
@@ -50,7 +50,7 @@ function pesquisaCliente($con, $cliente){
 			</div>
 
 			<div class="form-group">
-				<form action="lista-clientes.php">
+				<form action="../../../../../lista-clientes.php">
 					<button type="submit" class="btn btn-default btn-sm">
 						<i class="fa fa-list fa-1x" aria-hidden="true"></i>&nbsp;Listar Todos
 					</button>

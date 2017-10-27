@@ -58,14 +58,14 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="index.php"><!--i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i--> ProInteg</a>
+        <a class="navbar-brand" href="module/Cliente/view/index.php"><!--i class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i--> ProInteg</a>
 
       </div>
 
       <div class="collapse navbar-collapse" id="bar1">
         <ul class="nav navbar-nav navbar-left">
 
-          <li class="active"><a href="index.php"><i class="fa fa-home fa-1x" aria-hidden="true"></i>&nbsp;Home</a></li>
+          <li class="active"><a href="module/Cliente/view/index.php"><i class="fa fa-home fa-1x" aria-hidden="true"></i>&nbsp;Home</a></li>
 
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -74,7 +74,7 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="form-cadastro-clientes.php">
+                <a class="dropdown-item" href="module/Cliente/src/Cliente/Form/form-cadastro-clientes.php">
                   <i class="fa fa-user-plus fa-1x" aria-hidden="true"></i>&nbsp;Novo
                 </a>
               </li>

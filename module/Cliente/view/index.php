@@ -19,9 +19,7 @@
     <div class="container">
 
       <div class="page-header">
-        <center>
           <h1>ProInteg</h1>
-        </center>
       </div>
 
       <div class="row">
@@ -37,7 +35,7 @@
       <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
-          <form action="login.php" method="POST">
+          <form action="../../../login.php" method="POST">
             <div class="form-group">
               <label for="login">Login</label>
               <input type="text" class="form-control" id="login" name="login" autofocus required placeholder="Digite seu nome de usuário">
