@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="684ac4c2-cd71-49ae-bfba-a09bb5467dc5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/adiciona-clientes.php" afterPath="$PROJECT_DIR$/module/Cliente/view/adiciona-clientes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/banco-clientes.php" afterPath="$PROJECT_DIR$/module/Cliente/src/Cliente/Service/banco-clientes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class/Cliente.php" afterPath="$PROJECT_DIR$/module/Cliente/src/Cliente/Entity/Cliente.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/form-cadastro-clientes.php" afterPath="$PROJECT_DIR$/module/Cliente/src/Cliente/Form/form-cadastro-clientes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/module/Cliente/view/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cabecalho.php" afterPath="$PROJECT_DIR$/cabecalho.php" />
-    </list>
+    <list default="true" id="684ac4c2-cd71-49ae-bfba-a09bb5467dc5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,12 +188,12 @@
       <workItem from="1504312215562" duration="137000" />
       <workItem from="1504358534997" duration="52000" />
       <workItem from="1504421065731" duration="22000" />
-      <workItem from="1509071402670" duration="2242000" />
+      <workItem from="1509071402670" duration="2374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2996000" />
+    <option name="totallyTimeSpent" value="3128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
